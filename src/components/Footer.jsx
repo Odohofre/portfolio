@@ -17,7 +17,7 @@ export default function Footer() {
               fill="#21243D"
             />
           </svg>
-          <span class="sr-only">Twitter Page</span>
+          <span className="sr-only">Twitter Page</span>
         </a>
         <a href="https://github.com/odohofre">
           <svg
@@ -32,7 +32,7 @@ export default function Footer() {
               fill="#21243D"
             />
           </svg>
-          <span class="sr-only">Github Page</span>
+          <span className="sr-only">Github Page</span>
         </a>
         <a href="https://www.linkedin.com/in/brightodohofre/">
           <svg
@@ -48,7 +48,7 @@ export default function Footer() {
               fill="#21243D" fillRule="evenodd"
             />
           </svg>
-          <span class="sr-only">Linkedin Page</span>
+          <span className="sr-only">Linkedin Page</span>
         </a>
       </div>
       <p className='text-center mt-6'>Copyright &copy;2023 All rights reserved </p>
