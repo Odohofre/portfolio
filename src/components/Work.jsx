@@ -17,13 +17,13 @@ export default function Work({ link, img, title, year, type, summary }) {
       <Link href={link}>
         <div className="flex flex-col lg:ml-[18px] mt-4 lg:mt-0">
           <h2 className="text-2xl lg:text-3xl font-medium">{title}</h2>
-          <div className="mt-2 lg:mt-0">
+          <div className="mt-2 lg:mt-4">
             <span className="bg-darkcolor lg:text-lg text-white font-extrabold rounded-2xl leading-[60px] px-2 mr-2">
               {year}
             </span>
             <span className="lg:text-xl text-lightcolor">{type}</span>
           </div>
-          <p>{summary}</p>
+          <p className='mt-[19px]'>{summary}</p>
         </div>
       </Link>
     </div>

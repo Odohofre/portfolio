@@ -6,7 +6,7 @@ export default function page() {
   return (
     <main className="flex flex-col items-center px-[18px] w-full mb-24 mt-6">
       <h1 className="lg:text-[44px] text-3xl font-bold le">Work</h1>
-      <section className="flex flex-col items-center space-y-10 mt-8">
+      <section className="flex flex-col items-center lg:items-start space-y-10 mt-8">
         <Work
           link="https://moviebox-blush.vercel.app/"
           img={pic1}
