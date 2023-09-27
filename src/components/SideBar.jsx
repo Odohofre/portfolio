@@ -5,7 +5,7 @@ export default function SideBar({isOpen, toggle}) {
 
   return (
     <div
-      className="sidebar-container bg-white/[0.04] backdrop-blur-2xl fixed w-2/3 h-full overflow-hidden 
+      className="sidebar-container fixed w-2/3 h-full overflow-hidden 
     justify-center bg-white grid pt-[120px] right-0 z-20"
       style={{
         opacity: `${isOpen ? '1' : '0'}`,
@@ -22,7 +22,7 @@ export default function SideBar({isOpen, toggle}) {
           </svg>
         </button>
 
-        <ul className='space-y-10'>
+        <ul className='space-y-10 text-2xl font-semibold'>
           <li><Link href="/blog" onClick={toggle}>Blog</Link></li>
           <li><Link href="/work" onClick={toggle}>Works</Link></li>
           <li><Link href="#footer" onClick={toggle}>Contact</Link></li>

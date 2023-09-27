@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 const Navbar = ({ toggle }) => {
   return (
-    <nav className="w-full h-[60px] sticky top-0">
+    <nav className="w-full bg-white h-[60px] sticky top-0">
       <div className="container mx-auto px-[60px] h-full">
         <div className="flex justify-end items-center h-full">
-          <ul className="hidden md:flex gap-x-6 text-black text-xl font-medium">
+          <ul className="hidden md:flex gap-x-6 text-black text-xl font-semibold">
             <li className='hover:text-primary'>
               <Link href="/blog">
                 <p>Blog</p>
